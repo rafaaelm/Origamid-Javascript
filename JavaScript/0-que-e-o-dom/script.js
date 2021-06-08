@@ -24,7 +24,6 @@ document.body; // Retorna o body
 //Toda tag html é representada pelo objeto Element e por isso herda os seus métodos e propriedades. Element é um tipo de objeto Node.
 
 const titulo = document.querySelector('h1');
-
 titulo.innerText; // retorna o texto;
 titulo.classList; // retorna as classes;
 titulo.id; // retorna o id;
@@ -52,4 +51,7 @@ console.log(linguagem);
 // Retorne a largura da janela 
 const windowWidth = window.innerWidth;
 console.log(windowWidth);
+
+
+console.log()
 
